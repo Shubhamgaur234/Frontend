@@ -15,7 +15,6 @@ import EmployeeList from "./Employee/EmployeeList";
 import EmployeeDetails from "./Employee/EmployeeDetails";
 import AddEmployee from "./Employee/AddEmployee";
 import Profile from "./Employee/Profile";
-import Navbar from "./Navbar";
 
 const RequireAuth = () => {
   const location = useLocation();
@@ -28,7 +27,6 @@ const RequireAuth = () => {
 
 const ProtectedLayout = () => (
   <>
-    <Navbar />
     <Outlet />
   </>
 );
